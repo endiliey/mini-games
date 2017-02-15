@@ -1,26 +1,30 @@
 # Description
 
-This is collection of simple games made in C++ with SFML library
+This is collection of simple games that I made in C++ with the help of SFML library
 
 #For Linux
 
 ## Pre-requisites:
 
-Install SFML library in default location path (~). For ubuntu you can use :
+Install SFML library in default location path (~).
+
+For ubuntu you can use :
 ```sudo apt-get install libsfml-dev```
 
 ## Compiling and running the game
-Go to the folder of the game that you wanted to play, and run bash script by using
+(Choice 1) Go to the folder of the game that you wanted to play, and run bash script by using
+
 ```
 sudo bash play.sh
 ```
 
-or (if you've set permission for play.sh to run as an executable file
+(Choice 2) Set permission for play.sh to run as an executable file (set play.sh properties)
+
 ```
 ./play.sh
+```
 
-
-Alternatively, you can compile and then run it yourself
+(Choice 3) Alternatively, you can compile and then run it yourself
 ```
 g++ -std=c++11 -c main.cpp
 g++ main.o -o sfml-app -lsfml-graphics -lsfml-window -lsfml-system

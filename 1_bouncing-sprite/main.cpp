@@ -24,13 +24,17 @@ int main()
 			}
 		}
 		
-		if((endi.getPosition().x + (size.x / 2) > window.getSize().x && increment.x > 0) || (endi.getPosition().x - (size.x / 2) < 0 && increment.x < 0))
+		if((endi.getPosition().x + (size.x / 2) > window.getSize().x 
+		    && increment.x > 0) || (endi.getPosition().x - (size.x / 2) < 0 
+                    && increment.x < 0))
 		{
 			// Reverse direction on X axis
 			increment.x = -increment.x;
 		}
 
-		if((endi.getPosition().y + (size.y / 2) > window.getSize().y && increment.y > 0) || (endi.getPosition().y - (size.y / 2) < 0 && increment.y < 0))
+		if((endi.getPosition().y + (size.y / 2) > window.getSize().y 
+		    && increment.y > 0) || (endi.getPosition().y - (size.y / 2) < 0 
+		    && increment.y < 0))
 		{
 			// Reverse direction on Y axis
 			increment.y = -increment.y;
