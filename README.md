@@ -1,6 +1,6 @@
 # Description
 
-This is collection of simple games that I made in C++ with the help of SFML library
+Collection of simple games made in C++ (mostly with the help of SFML library)
 
 #For Linux
 
