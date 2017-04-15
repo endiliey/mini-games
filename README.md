@@ -2,6 +2,8 @@
 
 Collection of simple games made in C++ (mostly with the help of SFML library)
 
+![Preview](https://raw.githubusercontent.com/endiliey/endiliey.github.io/master/img/portfolio/mini-games.jpg)
+
 #For Linux
 
 ## Pre-requisites:
